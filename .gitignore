@@ -1,0 +1,28 @@
+# Ignore environment files (for sensitive data like API keys)
+.env
+.env.*
+
+# Ignore dependency lock files (optional, if you want)
+package-lock.json
+
+# Ignore output files and directories
+output/
+report.md
+
+# Ignore Jupyter Notebooks (optional)
+*.ipynb
+
+# Ignore any large files that shouldn't be tracked
+NB - DQ fctBookings Totals Daily_Load.ipynb
+test.py
+
+# Ignore Bolt and other hidden folders
+.bolt/
+
+# Ignore Node Modules (if you're using Node.js and have not installed it locally)
+node_modules/
+
+# Ignore common generated files and IDE-specific files
+.DS_Store
+*.log
+*.tmp
